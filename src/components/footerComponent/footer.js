@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                Copyright 2018
+                <p>@copyright 2018</p>
       </footer>
 
         );
