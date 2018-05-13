@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Img from './img/vivian.jpg';
+/* import Img from './img/vivian.jpg'; */
 
 class Header extends Component {
   render() {
@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="logo">
           KENYAN IN SWEDEN 
        </div>
-       <img className = "vivian" src= {vivian} alt="vivian" />
+       {/* <img className = "vivian" src= {Img} alt="vivian" /> */}
         <nav>
           <ul>
             <li>
