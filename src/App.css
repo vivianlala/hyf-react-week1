@@ -72,7 +72,7 @@ p{
 h2{
  padding: 0px;
  margin: 10px;
- color: 
+ color: blue;
 }
 
 footer{
@@ -80,7 +80,7 @@ footer{
   display: block;
   width: 100%;
   background-color:blue; 
-  height: 30px;
+  height: 50px;
   padding: 0px;
   color: white;
 }
