@@ -5,7 +5,7 @@ import './App.css';
 
 import data from './hackerNews/data';
 import Header from './hackerNews/header2';
-import {ShowTitle, SubTitle} from './hackerNews/Articles';
+import {Articles, Owner} from './hackerNews/Articles';
 
 console.log(data.hn.topStories);
 
@@ -19,8 +19,8 @@ class App extends Component {
           <ol className='mine'>{data.hn.topStories.map((item) => {
             return (
               <div id='TitleBlock'>
-                <ShowTitle title={item.title} key={item.id} url={item.url} />
-                <SubTitle by={item.by} id={item.by.id} timeISO={item.timeISO} />
+                <Articles title={item.title} key={item.id} url={item.url} />
+                <Owner by={item.by} id={item.by.id} timeISO={item.timeISO} />
               </div>
             )
           })}
